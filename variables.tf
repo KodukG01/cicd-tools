@@ -8,12 +8,12 @@ variable "environment" {
 
 variable "zone_name" {
   type        = string
-  default     = "daws84s.site"
+  default     = "devsecops.fun"
   description = "description"
 }
 
 variable "zone_id" {
   type        = string
-  default     = "Z032558618100M4EJX8X4"
+  default     = "Z0252688T5XCJOJGZQAF"
   description = "description"
 }
