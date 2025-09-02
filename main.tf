@@ -42,6 +42,7 @@ resource "aws_instance" "jenkins_agent" {
 resource "aws_security_group" "main" {
   name        =  "${var.project}-${var.environment}-jenkins"
   description = "Created to attatch Jenkins and its agents"
+  vpc_id = "vpc-0abc2b32312e6b6da"
 
   egress {
     from_port        = 0
